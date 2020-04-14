@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/xText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X Value"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+        <TextView
+            android:id="@+id/yText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xText"
+            android:text="Y Value"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <TextView
+            android:id="@+id/zText"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Z Value"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+        <TextView
+            android:id="@+id/xangle"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xangle" />
+
+        <TextView
+            android:id="@+id/yangle"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yangle" />
+
+        <TextView
+            android:id="@+id/zangle"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zangle" />
+
+        <TextView
+            android:id="@+id/other"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
